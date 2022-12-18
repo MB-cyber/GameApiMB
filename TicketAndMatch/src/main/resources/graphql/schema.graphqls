@@ -1,0 +1,40 @@
+# l ordre pas importont
+
+# difinir le type
+
+
+type  Query{
+    getEtudiant(id : ID) : Matche
+
+
+}
+
+type Mutation{
+    addMatch(m: Match): Matche
+    buyTicket(Tid : Int) : String
+
+}
+
+
+
+input Match {
+    ref: String
+    datHeurs : String
+    lieu : String
+    equipe1 : String
+    equipe2 : String
+}
+
+
+type Matche {
+
+    id :ID,
+    ref: String
+    datHeurs : String
+    lieu : String
+    equipe1 : String
+    equipe2 : String
+    tickets:[Int]
+
+
+}
