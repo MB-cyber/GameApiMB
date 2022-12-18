@@ -4,7 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="af5aa667-7ee6-4697-8190-4ce483046480" name="Changes" comment="create" />
+    <list default="true" id="af5aa667-7ee6-4697-8190-4ce483046480" name="Changes" comment="create">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TicketAndMatch/src/main/java/ma/emsi/ticketandmatch/Services/MatchService.java" beforeDir="false" afterPath="$PROJECT_DIR$/TicketAndMatch/src/main/java/ma/emsi/ticketandmatch/Services/MatchService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TicketAndMatch/src/main/java/ma/emsi/ticketandmatch/Services/MatcheServiceImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/TicketAndMatch/src/main/java/ma/emsi/ticketandmatch/Services/MatcheServiceImp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TicketAndMatch/src/main/java/ma/emsi/ticketandmatch/dao/Ticket.java" beforeDir="false" afterPath="$PROJECT_DIR$/TicketAndMatch/src/main/java/ma/emsi/ticketandmatch/dao/Ticket.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TicketAndMatch/src/main/java/ma/emsi/ticketandmatch/web/MatchGraphQlController.java" beforeDir="false" afterPath="$PROJECT_DIR$/TicketAndMatch/src/main/java/ma/emsi/ticketandmatch/web/MatchGraphQlController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TicketAndMatch/src/main/java/ma/emsi/ticketandmatch/web/TicketGraphqlController.java" beforeDir="false" afterPath="$PROJECT_DIR$/TicketAndMatch/src/main/java/ma/emsi/ticketandmatch/web/TicketGraphqlController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TicketAndMatch/src/main/resources/graphql/schema.graphqls" beforeDir="false" afterPath="$PROJECT_DIR$/TicketAndMatch/src/main/resources/graphql/schema.graphqls" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -19,7 +27,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/TicketAndMatch" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="JpbToolWindowState">
     <option name="myId2FirstActivated">
@@ -91,7 +99,7 @@
       <workItem from="1671304767102" duration="727000" />
       <workItem from="1671305532448" duration="11780000" />
       <workItem from="1671374166267" duration="291000" />
-      <workItem from="1671374476893" duration="35000" />
+      <workItem from="1671374476893" duration="11834000" />
     </task>
     <task id="LOCAL-00001" summary="create">
       <created>1671305060306</created>

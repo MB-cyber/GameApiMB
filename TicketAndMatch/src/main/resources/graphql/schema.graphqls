@@ -4,14 +4,15 @@
 
 
 type  Query{
-    getEtudiant(id : ID) : Matche
+    getMatch(ref : String) : Matche
 
 
 }
 
 type Mutation{
     addMatch(m: Match): Matche
-    buyTicket(Tid : Int) : String
+    buyTicket(Tid : ID) : String
+    editTicket(id : ID, ticket : Ticket ):Tickete
 
 }
 
@@ -25,7 +26,6 @@ input Match {
     equipe2 : String
 }
 
-
 type Matche {
 
     id :ID,
@@ -34,7 +34,22 @@ type Matche {
     lieu : String
     equipe1 : String
     equipe2 : String
-    tickets:[Int]
+    tickets:[Tickete]!
+
+
+}
+
+input Ticket {
+    prix : Float
+    actif : Boolean
+}
+
+type Tickete {
+    id :ID,
+    ref: String
+    prix : Float
+    actif : Boolean
+    match : Matche
 
 
 }

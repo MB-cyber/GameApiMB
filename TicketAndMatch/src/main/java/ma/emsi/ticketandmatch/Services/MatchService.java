@@ -6,4 +6,6 @@ public interface MatchService {
 
     Match addMatch(Match m);
 
+    Match getMatchByref(String ref);
+
 }

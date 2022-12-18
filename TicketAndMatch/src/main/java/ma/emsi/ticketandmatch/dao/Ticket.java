@@ -20,7 +20,7 @@ public class Ticket implements Serializable {
     private String ref;
     private Double prix;
     private Boolean actif;
-    @ManyToOne()
+    @ManyToOne(fetch = FetchType.LAZY)
     @JoinColumn(name = "Match_ID")
     private Match match;
 
